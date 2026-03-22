@@ -1,0 +1,4 @@
+aws --endpoint-url=http://localhost:4566 s3 mb s3://chalasi-lab-bucket
+echo 'This is a test file for Lab 2' > testfile.txt
+aws --endpoint-url=http://localhost:4566 s3 cp testfile.txt s3://chalasi-lab-bucket
+aws --endpoint-url=http://localhost:4566 s3 ls s3://chalasi-lab-bucket

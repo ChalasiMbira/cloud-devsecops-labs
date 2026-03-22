@@ -1,0 +1,113 @@
+{
+    "Reservations": [
+        {
+            "ReservationId": "r-27126aaf14458a9ad",
+            "OwnerId": "000000000000",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2026-03-19T19:39:22+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-ca566e49c7dff055b"
+                            }
+                        }
+                    ],
+                    "ClientToken": "55a8df32-2d1e-4d5d-8539-a8af8ea1ed49",
+                    "EbsOptimized": false,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {},
+                            "Attachment": {
+                                "AttachTime": "2026-03-19T19:39:22+00:00",
+                                "AttachmentId": "eni-attach-4767ecc1225ead7af",
+                                "DeleteOnTermination": false,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-e8bb6d2fe08646c1e",
+                                    "GroupName": "lab3-sg"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:00:00:2802x:13502x:16702x",
+                            "NetworkInterfaceId": "eni-6fb8eb5c9bffbe8d6",
+                            "OwnerId": "000000000000",
+                            "PrivateIpAddress": "10.0.1.4",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateIpAddress": "10.0.1.4"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-a0306bf8c9f42a81f",
+                            "VpcId": "vpc-de8afc84de87541a0",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-e8bb6d2fe08646c1e",
+                            "GroupName": "lab3-sg"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "SriovNetSupport": "simple",
+                    "StateReason": {
+                        "Code": "",
+                        "Message": ""
+                    },
+                    "VirtualizationType": "paravirtual",
+                    "HibernationOptions": {},
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "InstanceId": "i-2f0340ac4e1401eea",
+                    "ImageId": "ami-12345678",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-0-1-4.ec2.internal",
+                    "StateTransitionReason": "",
+                    "KeyName": "lab3-key",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2026-03-19T19:39:22+00:00",
+                    "Placement": {
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "us-east-1a"
+                    },
+                    "KernelId": "None",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-a0306bf8c9f42a81f",
+                    "VpcId": "vpc-de8afc84de87541a0",
+                    "PrivateIpAddress": "10.0.1.4"
+                }
+            ]
+        }
+    ]
+}
